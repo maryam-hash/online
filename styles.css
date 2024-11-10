@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.background {
+  background-image: url('images/realistic-style-technology-particle-background_23-2148426704.avif'); /* Set your background image here */
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-card {
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 350px;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+h2 {
+  color: #3d1a68;
+  margin-bottom: 20px;
+  font-size:30px;
+  font-weight: bolder;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.input-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #3d1a68;
+  font-size: 15px;
+}
+
+.input-group input[type="text"],
+.input-group input[type="password"],
+.input-group input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #7c287b;
+  color: white;
+  font-size: 18px;
+  border-radius: 6px;
+  border-color: #7c287b;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+  background-color: white;
+  color:#7c287b;
+  border-color: #7c287b 2px solid;
+}
+.message-container {
+  text-align: center;
+  margin-top: 50px;
+  padding: 30px;
+  background-color:#290e51 ;
+ 
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.message-container h2 {
+  color:white;
+  margin-bottom: 20px;
+}
+
+.message-container p {
+  color: white;
+  font-size: 18px;
+}
+
+.message-container img {
+  margin-top: 20px;
+  max-width: 500px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
